@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "target": "ES6"
+  },
+  "exclude": ["dist", "node_modules"]
+}

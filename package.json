@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "GraphQL api for personal portfolio",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "author": "Arttu Jantunen",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "dotenv": "^16.0.3",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.10.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/nodemon": "^1.19.2",
+    "nodemon": "^2.0.20"
+  }
+}
